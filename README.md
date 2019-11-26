@@ -1,3 +1,3 @@
 # Client
-This is for work
-This is also experiental
+This is for work.
+This is also experiemental
