@@ -1,0 +1,149 @@
+/*body {
+  background-color: rgba(75, 40, 75 0.3);
+}
+#main {
+  background-color: rgb(238, 211, 238);
+  padding: 30px 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-origin: padding-box;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+h1 {
+  font-size: larger;
+  font-style: italic;
+  font-weight: 700;
+  text-align: center;
+}
+p {
+  text-align: justify;
+  font-size: 20px;
+}
+
+#title {
+  background-color: rgb(184, 172, 172);
+  border-radius: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 2px 2px rgba(105, 105, 105, 0.6);
+  border-radius: 30px;
+  
+}
+
+#img-div {
+
+  width: 100%;
+  height: 60%;
+  display: grid;
+  grid-gap: 30px;
+  padding: 30px 40px;
+  box-shadow: rgba(31, 21, 21, 0.6);
+  grid-template-areas:  'image image tribute-info'
+                        'image image tribute-info';
+
+}
+#image {
+  grid-area: image;
+  width: 100%;
+  float: left;
+  position: inherit;
+  box-shadow: rgba(105, 105, 105, 0.6);
+  box-sizing: content-box;
+  border-radius: 20px;
+  border: rgba(31, 21, 21, 0.6);
+  padding: 20px;
+  display: inherit;
+}
+#ing-caption {
+  color: black;
+}
+#tribute-info{
+  grid-area: tribute-info;
+  text-align: right;
+  box-shadow: rgba(31, 21, 21, 0.6);
+  padding: 30px;
+  width: 100%;
+  background: lightpink;
+}
+#tribute-link {
+  color: black;
+  text-decoration: none;
+}*/
+
+body {
+  background-color: rgba(75, 40, 75 0.3);
+}
+#main {
+  background-color: rgb(238, 211, 238);
+  padding: 30px 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-origin: padding-box;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  text-align: center;
+}
+h1 {
+  font-size: larger;
+  font-style: italic;
+  font-weight: 700;
+  text-align: center;
+}
+p {
+  text-align: justify;
+  font-size: 20px;
+}
+
+#title {
+  background-color: rgb(184, 172, 172);
+  border-radius: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 2px 2px rgba(105, 105, 105, 0.6);
+  border-radius: 30px;
+  
+}
+
+#img-div {
+  align-content: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  display: inherit;
+  grid-gap: 50%;
+  padding: 30px 40px;
+  box-shadow: rgba(31, 21, 21, 0.6);
+  position: inherit;
+
+}
+#image {
+  max-width: 100%;
+  float: center;
+  position: center;
+  box-shadow: rgba(105, 105, 105, 0.6);
+  box-sizing: content-box;
+  border-radius: 20px;
+  border: rgba(31, 21, 21, 0.6);
+  padding: 20px;
+  align-content: center;
+  text-align: center;
+  margin: center;
+  display: inherit;
+  
+}
+#img-caption {
+  color: black;
+}
+#tribute-info{
+  grid-area: tribute-info;
+  text-align: right;
+  box-shadow: rgba(31, 21, 21, 0.6);
+  padding: 30px;
+  width: 100%;
+  background: lightpink;
+}
+#tribute-link {
+  color: black;
+  text-decoration: none;
+} 
