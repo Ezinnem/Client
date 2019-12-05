@@ -10,7 +10,7 @@ jQuery(document).ready(function() {
       pauseOnOver: true
     },
     auto: true,
-    items: {
+    items:{
       visible: {
         min: 1,
         max: 1
@@ -19,7 +19,7 @@ jQuery(document).ready(function() {
     },
     pagination: {
       container: ".sliderpager",
-      pageAnchorBuilder: false,
+      pageAnchorBuilder: false;
     }
 
   });
