@@ -1,2 +1,2 @@
 
-A webpage developed using HTML5 and CSS3
+A responsive webpage developed using HTML5 and CSS3
